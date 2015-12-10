@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Flask on Heroku
 
 This project is intended to help you tie together some important concepts and
@@ -37,3 +38,6 @@ A [finished example](https://lemurian.herokuapp.com) that demonstrates some basi
   and [examples](https://github.com/bokeh/bokeh/tree/master/examples/embed).
 - Make the plot visible on your website through embedded HTML or other methods - this is where Flask comes in to manage the interactivity and display the desired content.
 - Some good references for Flask: [This article](https://realpython.com/blog/python/python-web-applications-with-flask-part-i/), especially the links in "Starting off", and [this tutorial](https://github.com/bev-a-tron/MyFlaskTutorial).
+=======
+# test
+>>>>>>> bdd7ab4eb798e3121e298595af48f4569a6ef8ae
