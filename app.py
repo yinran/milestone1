@@ -28,7 +28,7 @@ def search():
     date_strings = [x[0] for x in raw_data["dataset_data"]["data"]]
     close_price = [x[4] for x in raw_data["dataset_data"]["data"]]
     date = pd.to_datetime(pd.Series(date_strings))
-    p = figure(title="Sotck Price for "+ticker+" (source: Quandl WIKI)", x_axis_label="Date",y_axis_label="Price", x_axis_type="datetime")
+    p = figure(title="Stock Price for "+ticker+" (source: Quandl WIKI)", x_axis_label="Date",y_axis_label="Price", x_axis_type="datetime")
     p.line(date ,close_price, legend="Close Price", line_width=3)
     script, div = components(p, INLINE)
     html = render_template('results.html', plot_script=script, plot_div=div)
